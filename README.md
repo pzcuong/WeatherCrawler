@@ -25,6 +25,9 @@ The project uses Puppeteer, a Node.js library for controlling headless Chrome or
 4. Run `npm run start` to execute the weather data crawling script.
 5. The script will crawl the weather data for each city and display the current temperature and time in the console.
 
+## Running result
+![result](./img/result.png)
+
 ## Configuration
 
 - You can modify the CSS selector used to locate the temperature element in the `crawlWeatherData` function of `weatherCrawler.ts` file. Update the selector if the page structure on weather.com changes.
