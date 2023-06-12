@@ -19,7 +19,7 @@ The project uses Puppeteer, a Node.js library for controlling headless Chrome or
 
 ## Usage
 
-1. Open the `main.ts` file.
+1. Open the `crawler.ts` file.
 2. Modify the `cities` array to include the desired cities and their corresponding weather.com URLs.
 3. Open a terminal and navigate to the project directory.
 4. Run `npm run start` to execute the weather data crawling script.
@@ -27,12 +27,4 @@ The project uses Puppeteer, a Node.js library for controlling headless Chrome or
 
 ## Configuration
 
-- You can modify the CSS selector used to locate the temperature element in the `crawlWeatherData` function of `weatherCrawler.ts` file. Update the selector if the page structure on weather.com changes.
-
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- You can modify the CSS selector used to locate the temperature element in the `crawlWeatherData` function of `crawler.ts` file. Update the selector if the page structure on weather.com changes.
